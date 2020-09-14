@@ -17,7 +17,7 @@ if echo "$SHELL" | grep -q "zsh"; then
     zsh
 elif echo "$SHELL" | grep -q "bash"; then
     printf "\n%s\n" "alias ccsv='python $PWD/ccsv.py 1> /dev/null'" >> ~/.bashrc
-   bash
+    bash
 fi
 
 echo "Successfully installed!"
