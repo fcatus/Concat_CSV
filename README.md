@@ -2,8 +2,8 @@
 
 ## Installation
 ```shell
-$ git clone "https://github.com/fcatus/Concat_CSV.git" \
-  && cd Concat_CSV && bash install.sh
+$ git clone "https://github.com/fcatus/Concat_CSV.git" && \
+    cd Concat_CSV; bash install.sh
 ```
 
 ## Usage
