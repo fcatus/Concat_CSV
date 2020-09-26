@@ -35,6 +35,7 @@ def ccsv():
                 combined_csv.to_csv(f'{Path(files[0]).parent}/{values["input"]}.csv',
                                     index=False,
                                     encoding='utf-8-sig')
+                sg.Popup('Done!')
 
         elif event == sg.WIN_CLOSED:
             break
