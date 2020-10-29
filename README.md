@@ -1,14 +1,14 @@
-# Concat CSV
+# Merge CSV
 
 ## Installation on Linux/macOS
 ```shell
-$ git clone "https://github.com/Alyetama/Concat_CSV.git" &&
-    cd Concat_CSV; bash install.sh
+$ git clone "https://github.com/Alyetama/Merge_CSV.git" &&
+    cd Merge_CSV; bash install.sh
 ```
 
 ## Usage
 ```shell
-$ ccsv
+$ merge_csv
 ```
 
 ![screenshot](static/screenshot.png)
