@@ -13,10 +13,10 @@ for i in ${pkgs[@]}; do
 done
 
 if echo "$SHELL" | grep -q "zsh"; then
-    printf "\n%s\n" "alias ccsv='python $PWD/ccsv.py 1> /dev/null'" >> ~/.zshrc
+    printf "\n%s\n" "alias merge_csv='python $PWD/merge_csv.py 1> /dev/null'" >> ~/.zshrc
     zsh
 elif echo "$SHELL" | grep -q "bash"; then
-    printf "\n%s\n" "alias ccsv='python $PWD/ccsv.py 1> /dev/null'" >> ~/.bashrc
+    printf "\n%s\n" "alias merge_csv='python $PWD/merge_csv.py 1> /dev/null'" >> ~/.bashrc
     bash
 fi
 
