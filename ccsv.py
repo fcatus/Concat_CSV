@@ -29,7 +29,7 @@ def ccsv():
             try:
                 files
             except NameError:
-                sg.Popup('You Haven Not Selected Any File to Concatenate!')
+                sg.Popup('You have not selected any file to concatenate!')
             else:
                 combined_csv = pd.concat([pd.read_csv(f) for f in files])
                 combined_csv.to_csv(f'{Path(files[0]).parent}/{values["input"]}.csv',
